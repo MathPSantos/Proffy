@@ -57,7 +57,7 @@ const TeacherForm: React.FC = () => {
     }).then(() => {
       alert("Cadastro realizado com sucesso!");
       
-      history.push('/');
+      history.push('/give-classes/success');
     }).catch(() => {
       alert("Erro no cadastro")
     });
